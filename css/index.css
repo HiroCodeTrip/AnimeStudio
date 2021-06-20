@@ -13,3 +13,11 @@ h1{
 #battle{
     background-color: #ffffff;
 }
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flex>p{
+    width: 49%;
+}
