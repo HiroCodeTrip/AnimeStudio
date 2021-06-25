@@ -1,3 +1,6 @@
+body {
+    text-rendering: auto;
+}
 .red{
     color:red
 }
@@ -21,3 +24,49 @@ h1{
 .flex>p{
     width: 49%;
 }
+
+/*必要に応じてtext-decoration:none;*/
+.header{
+    border-bottom: 1px solid rgb(0 0 0 / 20%);
+}
+
+a {
+    color:black;
+}
+
+.anchor{
+    color:black;
+    margin: auto;
+}
+.each-hidden{
+    display: inline-flex;
+}
+
+.img-hidden {
+    display:inline-block;
+    height: 80px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.img-hidden img{
+    height: 200%;
+}
+
+.ul-header{ 
+    display:inline-flex;
+    align-content: center;
+}
+.li-header {
+    position: absolute;
+    background: #ffffff;
+    padding: 4px;
+    width: 1500px;
+    display: none;
+    box-shadow: -1px 7px 10px rgb(0 0 0 / 20%);
+
+}
+
+a:hover + .li-header, .li-header:hover { 
+    display: inline-block 
+}
+
