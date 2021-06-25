@@ -17,14 +17,6 @@ h1{
     background-color: #ffffff;
 }
 
-.flex{
-    display: flex;
-    justify-content: space-between;
-}
-.flex>p{
-    width: 49%;
-}
-
 /*必要に応じてtext-decoration:none;*/
 .header{
     border-bottom: 1px solid rgb(0 0 0 / 20%);
