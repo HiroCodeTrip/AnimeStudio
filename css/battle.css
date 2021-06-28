@@ -3,10 +3,26 @@ body{
 }
 
 .main{
-    border-radius: 10px;
-    background-color: #fafca5
+    
+    
 }
 
 .img_MHA{
-    width : 50vw ;
+    width : 38vw ;
+    padding-right: 5px;
+}
+
+.my_hero_academia{
+    border-radius: 10px;
+    background-color: #fafca5;
+    padding: 1px 10px 10px 20px;
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flex>p{
+    width: 49%;
 }
