@@ -1,5 +1,6 @@
 body {
     text-rendering: auto;
+    margin-top:100px;
 }
 .red{
     color:red
@@ -16,6 +17,13 @@ h1{
 /*必要に応じてtext-decoration:none;*/
 .header{
     border-bottom: 1px solid rgb(0 0 0 / 20%);
+    position:fixed;
+    top:0;
+    box-sizing:border-box;
+    height:100px;
+    padding:20px;
+    background-color:rgb(236, 232, 232);
+    z-index:500;
 }
 
 a {
