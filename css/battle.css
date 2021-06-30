@@ -12,7 +12,17 @@ body{
     padding-right: 5px;
 }
 
-.my_hero_academia{
+.img_jujutu{
+    width : 38vw ;
+    padding-right: 5px;
+}
+
+.img_bclover{
+    width : 38vw ;
+    padding-right: 5px;
+}
+
+.individual{
     border-radius: 10px;
     background-color: #fafca5;
     padding: 1px 10px 10px 20px;
