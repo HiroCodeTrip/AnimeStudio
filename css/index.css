@@ -36,6 +36,8 @@ a {
     cursor:pointer;
     color:black;
     margin: auto;
+    font-weight: 700;
+    font-size: 14px;
 }
 .each-hidden{
     display: inline-flex;
