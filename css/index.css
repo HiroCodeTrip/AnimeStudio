@@ -16,17 +16,21 @@ h1{
 }
 
 /*必要に応じてtext-decoration:none;*/
-.header{
+header{
+    display:inline-block;
+    width:100%;
+    border-top: 7px solid #ffe454;
     border-bottom: 1px solid rgb(0 0 0 / 20%);
     position:fixed;
     top:0;
     box-sizing:border-box;
-    height:100px;
     padding:20px;
     background-color:rgb(236, 232, 232);
     z-index:500;
 }
-
+.followed-top{
+    text-align:center
+}
 a {
     color:black;
 }
@@ -50,7 +54,7 @@ a {
 }
 
 .ul-header{ 
-    display:inline-flex;
+    display:flex;
     align-content: center;
 }
 .li-header {
@@ -64,7 +68,7 @@ a {
 }
 
 a:hover + .li-header, .li-header:hover { 
-    display: inline-block 
+    display: inline-block ;
 }
 
 
