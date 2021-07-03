@@ -1,5 +1,5 @@
 body{
-    
+    margin : 3vw 3vw 3vw 3vw
 }
 
 .main{
@@ -7,21 +7,24 @@ body{
     
 }
 
+.subtitle{
+    border-bottom: solid;
+}
+
+h3{
+    border-bottom: solid;
+}
+
 .image{
     width : 38vw ;
     padding-right: 5px;
 }
 
-.saiki{
-    width : 20vw ;
-    padding-right: 5px;
-}
 
 .individual{
     border-radius: 10px;
     background-color: #fafca5;
     padding: 1px 10px 10px 20px;
-    
 }
 
 .flex{
