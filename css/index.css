@@ -92,3 +92,16 @@ footer>h3{
     display: inline;
     color: #ffffff;
 }
+
+.samune {
+    width: 35vw;
+}
+
+.a{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.a>p{
+    width: 35%;
+}
