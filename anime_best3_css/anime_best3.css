@@ -3,6 +3,49 @@ body {
     margin: 100px 0px 0px 0px;
 }
 
+/*試作品*/
+body{
+    background-color: #fffef7;
+}
+
+.somple{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 74px;
+    flex-wrap: wrap;
+}
+
+main{
+    width: 880px;
+}
+
+ul{
+    list-style: none;
+}
+
+.li-contents{
+    margin-bottom: 5%;
+}
+
+.main-contents{
+    display: block;
+    border: 1px solid #d9d9d9;
+    background: #fff;
+    padding: 25px 30px;
+    pointer-events: auto;
+}
+
+.menu{
+    width: 300px;
+    margin-top: 80px;
+}
+
+.main-samune{
+    width: 50vw;
+    padding-left: 5%;
+}
 
 /*header*/
 header{
