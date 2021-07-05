@@ -153,3 +153,9 @@ span#tit{
     top: -5px;
     margin-left: 40px;
 }
+
+.more{
+    margin-left: 457px;
+    border: double;
+    padding: 5px;
+}
