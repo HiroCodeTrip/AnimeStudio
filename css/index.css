@@ -1,7 +1,7 @@
 body {
     text-rendering: auto;
     margin: 100px 0px 0px 0px;
-    background-color: #f0f0f0;
+    background-color: #fffef7;
 }
 
 h1{
@@ -120,7 +120,7 @@ h4{
     margin: 1%;
     display: flex;
     justify-content: space-between;
-    border-top: solid 1px;
+    border-top: solid 1px #e0e0e0;
     padding-top: 15px;
 }
 .flex>p{
@@ -130,7 +130,9 @@ h4{
 
 .keitou{
     margin: 1% 15% 1% 15%;
-    border: solid 1px #444d56;
+    border: solid 1px #d8d8d8;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .description{
@@ -155,7 +157,10 @@ span#tit{
 }
 
 .more{
-    margin-left: 457px;
-    border: double;
+    margin-left: 54%;
     padding: 5px;
+}
+
+.mini-icon{
+    width: 1vw;
 }
