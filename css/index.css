@@ -141,7 +141,7 @@ h4{
 }
 
 h1{
-    margin: 120px 0px 5px 220px;
+    margin: 120px 15% 5px 15%;
     border-left: solid 5px #444d56;
     padding-left: 20px;
 }
@@ -151,7 +151,7 @@ span#tit{
     font-weight: 400;
     position: relative;
     top: -5px;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .more{
