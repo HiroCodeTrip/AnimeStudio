@@ -13,12 +13,12 @@ body{
     justify-content: space-between;
     width: 1200px;
     margin: 0 auto;
-    padding-top: 74px;
     flex-wrap: wrap;
 }
 
 main{
     width: 880px;
+    padding: 0px 2%;
 }
 
 ul{
@@ -38,7 +38,7 @@ ul{
 }
 
 .menu{
-    width: 300px;
+    width: 250px;
     margin-top: 80px;
 }
 
@@ -123,6 +123,7 @@ footer{
     border-top: 1px solid rgb(0 0 0 / 20%);
     background-color: #444d56;
     text-align: center;
+    min-width: 1200px;
 }
 
 footer>h3{
