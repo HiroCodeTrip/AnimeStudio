@@ -1,6 +1,7 @@
 body{
     text-rendering: auto;
-    margin: 100px 0px 0px 0px;
+    margin: 100px 40px 40px 40px;
+    background-color: #fffef7;
 }
 
 .main{
@@ -8,12 +9,27 @@ body{
     
 }
 
+
+
 .subtitle{
     border-bottom: solid;
+    display: inline-block;
+}
+
+h1{
+    margin-left: 25px;
+    margin-top: 125px;
+    ding-top: 15px;
 }
 
 h3{
-    border-bottom: solid;
+    
+}
+
+.line{
+    
+    border-top: solid 1px #e0e0e0;
+
 }
 
 .image{
@@ -24,13 +40,17 @@ h3{
 
 .individual{
     border-radius: 10px;
-    background-color: #fafca5;
+    background-color: #ffffff;
     padding: 1px 10px 10px 20px;
+    box-shadow: 0 0 8px gray;
 }
 
 .flex{
     display: flex;
     justify-content: space-between;
+    
+    border-top: solid 1px #e0e0e0;
+    padding-top: 15px;
 }
 .flex>p{
     width: 49%;
