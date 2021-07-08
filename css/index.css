@@ -210,3 +210,9 @@ span#tit{
     margin: auto;
     text-align: center;
 }
+
+#icon{
+    width:25px;
+    height:25px;
+    margin-left:200px;
+}
