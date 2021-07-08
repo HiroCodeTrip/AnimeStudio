@@ -1,7 +1,16 @@
 body{
     text-rendering: auto;
-    margin: 100px 40px 40px 40px;
     background-color: #fffef7;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+aside{
+    margin: 10px 40px 40px 40px;
+}
+
+main{
+    margin: 100px 40px 40px 40px;
 }
 
 .subtitle{
