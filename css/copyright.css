@@ -46,7 +46,6 @@ header{
     position:fixed;
     top:0;
     box-sizing:border-box;
-    padding:20px;
     background-color:#ffffff;
     z-index:500;
 }
@@ -84,7 +83,7 @@ a {
 }
 .li-header {
     left:0px;
-    margin-top: 23px;
+    margin-top: 41px;
     position: absolute;
     background-color: #ffffff;
     padding: 4px;
@@ -153,4 +152,9 @@ footer>h3{
     left: 0;
     margin: auto;
     text-align: center;
+}
+#icon{
+    width:50px;
+    height:50px;
+    margin-left:200px;
 }
