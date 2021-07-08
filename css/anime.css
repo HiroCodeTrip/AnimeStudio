@@ -4,12 +4,6 @@ body{
     background-color: #fffef7;
 }
 
-main{
-
-}
-
-
-
 .subtitle{
     border-bottom: solid;
     display: inline-block;
@@ -19,10 +13,6 @@ h1{
     margin-left: 25px;
     margin-top: 125px;
     ding-top: 15px;
-}
-
-h3{
-    
 }
 
 .line{

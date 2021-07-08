@@ -25,7 +25,12 @@ body{
 }
 
 a#home{
-    padding: 20px;
+    margin-left: 20px;
+}
+
+a#home:hover{
+    background-color: hsl(53, 100%, 86%);
+    display: inline-block;
 }
 
 /*header*/
