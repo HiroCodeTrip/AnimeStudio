@@ -1,7 +1,17 @@
 body{
     text-rendering: auto;
-    margin: 100px 40px 40px 40px;
     background-color: #fffef7;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+aside{
+    margin: 10px 40px 40px 40px;
+}
+
+main{
+    margin: 100px 40px 40px 40px;
 }
 
 .subtitle{
@@ -12,7 +22,6 @@ body{
 h1{
     margin-left: 25px;
     margin-top: 125px;
-    ding-top: 15px;
 }
 
 .line{
@@ -45,7 +54,20 @@ h1{
     width: 49%;
 }
 
+.li-menu:hover{
+    background-color: hsl(53, 100%, 86%);
+    display: inline-block;
+}
 
+a#home:hover{
+    background-color: hsl(53, 100%, 86%);
+    display: inline-block;
+}
+
+.ul-menu{
+    list-style: square;
+    color: hsl(53, 97%, 69%);
+}
 
 /*header*/
 header{
