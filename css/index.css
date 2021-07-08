@@ -7,9 +7,6 @@ body {
 h1{
     margin-bottom:-120px
 }
-.keitou{
-    background-color: #ffffff;
-}
 
 /*必要に応じてtext-decoration:none;*/
 header{
@@ -131,10 +128,13 @@ h4{
 }
 
 .keitou{
+    background-color: #ffffff;
     margin: 1% 15% 1% 15%;
     border: solid 1px #d8d8d8;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px grey;
 }
 
 .description{
