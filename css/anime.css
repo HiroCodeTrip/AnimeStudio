@@ -14,9 +14,6 @@ main{
     margin: 100px 40px 40px 40px;
 }
 
-.subtitle{
-    
-}
 
 h1{
     margin-left: 25px;
@@ -25,15 +22,19 @@ h1{
     border-left: solid 5px #444d56;
 }
 
-h2,h3{
+main h2,main h3{
     border-left: solid 3px #00008b;
     padding-left: 1%;
 }
 
 .line{
-    
     border-top: solid 1px #e0e0e0;
+    border-bottom: 1%;
+}
 
+.copy-right{
+    border-bottom: solid 1px #e0e0e0;
+    border-bottom: 1%;
 }
 
 .image{
