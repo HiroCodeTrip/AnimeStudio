@@ -76,6 +76,10 @@ a#home:hover{
     color: hsl(53, 97%, 69%);
 }
 
+.explaination{
+    padding: 1%;
+}
+
 /*header*/
 header{
     left:0px;
