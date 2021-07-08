@@ -14,20 +14,27 @@ main{
     margin: 100px 40px 40px 40px;
 }
 
-.subtitle{
-    border-bottom: solid;
-    display: inline-block;
-}
 
 h1{
     margin-left: 25px;
     margin-top: 125px;
+    padding-left: 1%;
+    border-left: solid 5px #444d56;
+}
+
+main h2,main h3{
+    border-left: solid 3px #00008b;
+    padding-left: 1%;
 }
 
 .line{
-    
     border-top: solid 1px #e0e0e0;
+    border-bottom: 1%;
+}
 
+.copy-right{
+    border-bottom: solid 1px #e0e0e0;
+    border-bottom: 1%;
 }
 
 .image{
@@ -67,6 +74,10 @@ a#home:hover{
 .ul-menu{
     list-style: square;
     color: hsl(53, 97%, 69%);
+}
+
+.explaination{
+    padding: 1%;
 }
 
 /*header*/

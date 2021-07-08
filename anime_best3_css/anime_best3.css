@@ -29,9 +29,21 @@ ul{
     margin-bottom: 5%;
 }
 
+h1{
+    border-left: solid 5px black;
+    margin-left: 4%;
+    padding-left: 1%;
+}
+
 h2{
     border-left: solid 3px #00008b;
     padding-left: 1%;
+}
+
+.h3-menu{
+    border-bottom: solid 3px black;
+    padding-bottom: 2%;
+    display: inline;
 }
 
 .h3-main{
@@ -81,6 +93,14 @@ a#home:hover{
 .ul-menu{
     list-style: square;
     color: hsl(53, 97%, 69%);
+}
+
+span#tit{
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    top: -5px;
+    margin-left: 20px;
 }
 
 /*header*/
