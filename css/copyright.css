@@ -27,13 +27,15 @@ body{
     box-shadow: 0 0 8px grey;
 }
 
-a#home{
-    margin-left: 20px;
-}
-
 a#home:hover{
     background-color: hsl(53, 100%, 86%);
     display: inline-block;
+}
+
+.menu{
+    margin: 0px 0px 2%;
+    text-align: center;
+    font-size: 130%;
 }
 
 /*header*/
