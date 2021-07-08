@@ -54,7 +54,20 @@ h1{
     width: 49%;
 }
 
+.li-menu:hover{
+    background-color: hsl(53, 100%, 86%);
+    display: inline-block;
+}
 
+a#home:hover{
+    background-color: hsl(53, 100%, 86%);
+    display: inline-block;
+}
+
+.ul-menu{
+    list-style: square;
+    color: hsl(53, 97%, 69%);
+}
 
 /*header*/
 header{
