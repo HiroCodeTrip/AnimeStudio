@@ -15,13 +15,19 @@ main{
 }
 
 .subtitle{
-    border-bottom: solid;
-    display: inline-block;
+    
 }
 
 h1{
     margin-left: 25px;
     margin-top: 125px;
+    padding-left: 1%;
+    border-left: solid 5px #444d56;
+}
+
+h2,h3{
+    border-left: solid 3px #00008b;
+    padding-left: 1%;
 }
 
 .line{
